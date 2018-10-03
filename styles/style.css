@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: gray;
+}
+button {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	background: url(https://cdn2.iconfinder.com/data/icons/snipicons/500/plus-512.png), yellow;
+	background-size: 36.3px;
+	border: solid 2px black;
+	border-radius: 4px;
+}
+button:hover {
+	width: 45px;
+	height: 45px;
+	right: 18px;
+	top: 18px;
+	background: url(https://cdn2.iconfinder.com/data/icons/snipicons/500/plus-512.png), green;
+	background-size: 41px;
+}
+.newDiv:hover {
+	cursor: pointer;
+	box-shadow: 0 0 150px rgba(196, 146, 21, 1) inset;
+}
+
+
+
+.remove {
+	background: url(../img/cancel-mark.png);
+	background-size: 100%;
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	bottom: 0;
+	right: 0; 
+	border-radius: 7px;
+	z-index: 100000;
+}
+/*.remove:hover {
+	width: 30px;
+	height: 30px;
+	transition: 0.4s;
+	margin-left: 0px;
+	box-shadow: 0 0 5px 3px gray;
+}*/
